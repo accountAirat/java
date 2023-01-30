@@ -1,4 +1,4 @@
-package Seminar.pap;
+package Seminar.seminar_1;
 
 public class ex {
     public static void main(String[] args) {
@@ -15,7 +15,6 @@ public class ex {
         for (int j = 0; j < nums.length; j++) {
             System.out.print(nums[j] + " ");
         }
-        
     }
-    
+
 }

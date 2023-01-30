@@ -11,6 +11,7 @@ public class ex3 {
             Integer numberTwo = scan.nextInt();
             System.out.print("Введите оператор: ");
             String operator = scan.next();
+            scan.close();
             switch (operator) {
                 case ("+"):
                     System.out.printf("%d %s %d = %d\n",numberOne,operator,numberTwo, sum(numberOne,numberTwo));
